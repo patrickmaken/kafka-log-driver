@@ -3,7 +3,7 @@
 namespace Patrickmaken\KafkaLogDriver\Handler;
 
 use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\LineFormatter;
+use Monolog\Formatter\JsonFormatter;
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Level;
 use Monolog\LogRecord;
@@ -44,7 +44,7 @@ class KafkaHandler extends AbstractProcessingHandler
      */
     protected function getDefaultFormatter(): FormatterInterface
     {
-        return new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %context% %extra%');
+        return new JsonFormatter();
     }
 
     /**
