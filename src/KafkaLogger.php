@@ -1,8 +1,8 @@
 <?php
 
-namespace Alexusmai\KafkaLogDriver;
+namespace Patrickmaken\KafkaLogDriver;
 
-use Alexusmai\KafkaLogDriver\Handler\KafkaHandler;
+use Patrickmaken\KafkaLogDriver\Handler\KafkaHandler;
 use Monolog\Logger;
 use Monolog\Processor\WebProcessor;
 use RdKafka\Conf;

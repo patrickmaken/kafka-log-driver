@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\KafkaLogDriver\Handler;
+namespace Patrickmaken\KafkaLogDriver\Handler;
 
 use Monolog\Formatter\FormatterInterface;
 use Monolog\Formatter\LineFormatter;

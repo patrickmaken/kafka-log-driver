@@ -21,13 +21,13 @@ extension=rdkafka.so
 You can install the package via composer:
 
 ```bash
-composer require alexusmai/kafka-log-driver
+composer require patrickmaken/kafka-log-driver
 ```
 
 For Laravel 9
 
 ```bash
-composer require alexusmai/kafka-log-driver:1.0
+composer require patrickmaken/kafka-log-driver:1.0
 ```
 
 You can publish the config file with:
@@ -67,7 +67,7 @@ Add to `config/logging.php`
     ...
     'kafka' => [
         'driver' => 'custom',
-        'via' => Alexusmai\KafkaLogDriver\KafkaLogger::class,
+        'via' => Patrickmaken\KafkaLogDriver\KafkaLogger::class,
     ],
     ...
 ],

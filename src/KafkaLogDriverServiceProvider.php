@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\KafkaLogDriver;
+namespace Patrickmaken\KafkaLogDriver;
 
 use Illuminate\Support\ServiceProvider;
 

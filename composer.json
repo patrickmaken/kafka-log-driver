@@ -1,32 +1,32 @@
 {
-    "name": "alexusmai/kafka-log-driver",
+    "name": "patrickmaken/kafka-log-driver",
     "description": "Laravel, log driver for Kafka",
     "keywords": [
-        "alexusmai",
+        "patrickmaken",
         "laravel",
         "kafka",
         "log",
         "driver"
     ],
-    "homepage": "https://github.com/alexusmai/kafka-log-driver",
+    "homepage": "https://github.com/patrickmaken/kafka-log-driver",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aleksandr Manekin",
-            "email": "alexusmai@gmail.com",
+            "name": "Patrick Madeng",
+            "email": "patrickmaken@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.1|^8.2",
+        "php": "^8.1",
         "ext-rdkafka": "^6.0",
-        "illuminate/support": "^10.0",
-        "illuminate/contracts": "^10.0",
+        "illuminate/support": "^11.0",
+        "illuminate/contracts": "^11.0",
         "monolog/monolog": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "Alexusmai\\KafkaLogDriver\\": "src/"
+            "Patrickmaken\\KafkaLogDriver\\": "src/"
         }
     },
     "config": {
@@ -35,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Alexusmai\\KafkaLogDriver\\KafkaLogDriverServiceProvider"
+                "Patrickmaken\\KafkaLogDriver\\KafkaLogDriverServiceProvider"
             ]
         }
     },
